@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+     margin:0px;
+	 padding:0px;
+	 background-image:url("../images/bg.png") ;
+	 background-image:no-repeat;
+}
+#cadre_principal{
+	background:#FFF;
+	margin-left:10%;
+	margin-right:10%;
+	width:80%;
+	height:100%;
+	
+}
+header{width:100%;
+     height:10%;
+	 margin-bottom:5px;
+	 border:15px;
+	 border-radius:8px;
+	 background:-webkit-gradient(linear,left top,left bottom,from(#FFF), to(#CC5));
+	 background:-moz-gradient(linear,left top,left bottom,from(#9C0),to(#F30));
+	 background:-ms-gradient(linear,left top,left bottom,from(#9C0),to(#F30));
+}
+#photo{width:150px;
+     height:150px;
+}
+header div{display:inline-block;
+}
+#information{vertical-align:top;}
+#nom{
+	text-align:center;
+	margin-left:30px;
+	vertical-align:text-top;
+	font-size:2em;
+float:right;	
+}
+#description{
+	font-weight:bold;
+	perspectve:2em;
+	clear:right;
+}
+#moncv{
+	float:right;
+	font-size:2em;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:100;
+}
+#centre{background:#CCC;
+}
+#selection div{
+	        font-size:3em;
+			font-weight:200;
+			color:#000;
+			border:5px;
+			background-color:#FFF;
+			margin-bottom:20px;
+			border-radius:5px;
+			margin-left:8%;
+			box-shadow:8px 12px 8px #000;
+}
+#selection div:hover{
+	background-color:#C60;
+	font-weight:600;
+	font-size:3em;
+	animation:ease-in ;
+}
+a{
+	text-decoration:none;
+}
+.icon{
+	width:42px;
+	height:42px;
+	vertical-align:central;
+}
+iframe{
+	width:80%;
+	height:500px;
+	margin-left:10%;
+	margin-right:10%;
+}
+#telecharger{
+	font-size:24px;
+	font-weight:bold;
+}
+footer{
+	margin-top:3%;
+	text-align:center;
+	font-size:1.5em;
+	font-weight:bold;
+	background-color:#CCC;
+}
+audio{
+	width:70%;
+	vertical-align:central;
+	margin-left:10%;
+}
+video{
+	margin-left:15%;
+	margin-right:15;
+	width:70%;
+}
+/*gestion de la forme du curriculun_vitae*/
+#curriculum_vitae{
+	text-align:center;
+	font-size:36px;
+	color:#006;
+}
+.titre{
+	color:#006;
+	font-weight:bold;
+	font-size:24px;
+	margin-top:15px;
+	text-decoration:underline;
+}
+.pair{
+	background-color:#09F;
+	font-weight:bold;
+}
+.impair{
+	background-color:#FFF;
+	font-weight:bold;
+}
+@media (max-width:900px){
+	#nom{
+	text-align:center;
+	margin-left:30px;
+	vertical-align:text-top;
+	font-size:1.5em;
+	
+}
+#moncv{
+	display:none;
+}
+#description{
+	display:none;
+}
+}
